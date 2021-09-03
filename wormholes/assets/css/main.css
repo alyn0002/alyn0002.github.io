@@ -1,0 +1,644 @@
+body {
+	font-family: 'timestamp';
+	font-size: 32px;
+	background-size: cover;
+	}
+
+
+/* General */
+
+img {
+	width: 100%;
+}
+
+@font-face {
+	font-family: 'wombscript';
+	src: url(fonts/WombScript-Regular.otf);
+}
+
+@font-face {
+	font-family: 'timestamp';
+	src: url(fonts/TimeStamp-Standard.otf);
+}
+
+@font-face {
+	font-family: 'slowscript';
+	src: url(fonts/SlowScript-One.otf);
+}
+
+a {
+	color:red;
+	background-color: yellow;
+	padding: 20px;
+	border-radius: 20px;
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: blue;
+	color: white;
+}
+
+.caption {
+	font-size: 17px;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+/* Stinky Page */
+
+body.stinkypage {
+	background-color: rgb(245, 139, 157);
+}
+
+.box {
+	width: 300px;
+	height: 300px;
+	background-color: rgb(131,58,180);
+	animation-name: boxmove;
+	animation: boxmove 4s alternate infinite linear;
+}
+
+@keyframes boxmove {
+	
+	0% {
+		border-radius: 100%;
+	}
+
+	50% {
+		border-radius: 0%;
+	}
+
+	100% {
+		border-radius: 100%;
+	}
+
+}
+
+
+
+/* Index page */
+
+body.indexpage {
+	background-color: darkorchid;
+}
+
+a.padding {
+	padding: 2px;
+}
+
+.intro {
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	background: linear-gradient(90deg, rgba(39,170,51,0.8438914027149321) 22%, rgba(236,155,225,1) 50%, rgba(243,255,0,1) 100%);
+	padding: 20px;
+	border-radius: 20px;
+}
+
+.title {
+	font-size: 50px;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'timestamp';
+	margin-top: 40px;
+}
+
+
+/* Question page */
+
+body.questionpage {
+	background-color: deeppink;
+}
+
+.fishy {
+	width: 30.333%;
+	margin: auto;
+	background-color: white;
+	padding: 20px;
+	border-radius: 20px;
+	transition: 2s;
+	text-align: center;
+}
+
+.fishy:hover {
+	background-color: yellow;
+	border-radius: 100%;
+}
+
+.fishy a {
+	color: violet;
+}
+
+
+.fruity {
+	width: 30.333%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: wheat;
+	padding: 20px;
+	border-radius: 20px;
+	transition: 2s;
+	text-align: center;
+}
+
+.fruity:hover {
+	background-color: thistle;
+	border-radius: 100%;
+}
+
+.cigs {
+	width: 30.333%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: yellow;
+	padding: 20px;
+	border-radius: 20px;
+	transition: 2s;
+	text-align: center;
+}
+
+.cigs:hover {
+	background-color: rgb(223, 163, 153);
+	border-radius: 100%;
+}
+/* Fruity page */
+
+body.fruitypage {
+	background-color: fuchsia;
+}
+
+.container {
+	display: flex;
+	flex-wrap: flex;
+}
+
+.divide {
+	display: flex;
+	flex-wrap: flex;
+}
+.circle {
+	width: 50px;
+	height: 50px;
+	background-color: coral;
+	border-radius: 100px;
+	animation-name: moving3;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+
+.curve {
+	width: 100px;
+	height: 100px;
+	background-color: cornflowerblue;
+	border-radius: 200px;
+	animation-name: moving2;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+
+}
+
+.box {
+	width: 150px;
+	height: 150px;
+	background-color: darkgreen;
+	border-radius: 200px;
+	animation-name: moving;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+
+
+} 
+
+@keyframes moving {
+	0%{height: 150px;}
+	50%{height: 650px;}
+	100%{height: 150px;}
+}
+
+@keyframes moving2 {
+	0%{height: 100px;}
+	50%{height: 400px;}
+	100%{height: 100px;}
+}
+
+@keyframes moving3 {
+	0%{height: 100px;}
+	50%{height: 300px;}
+	100%{height: 100px;}
+}
+
+a.test{
+	padding: 0.25px;
+
+}
+
+.wiggles {
+	width: 100%;
+	background: rgb(131,58,180);
+	background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+	padding: 20px;
+	border-radius: 20px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+a.box{
+	padding: 1px;
+}
+
+
+.lyrics {
+	width: 70%;
+	font-size: 17px;
+	font-family: 'Courier New', Courier, monospace;
+	background-color: rgb(122, 84, 122);
+	color: white;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* Monkeys and Bananas */
+
+body.monkeypage {
+	background-color: rgb(248, 248, 97);
+}
+
+.title {
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.container {
+	display: flex;
+	flex-wrap: flex;
+}
+
+.monkey {
+	width: 30%;
+	background-color: rgb(255, 255, 0);
+	padding: 20px;
+	border-radius: 20px;
+}
+
+.info {
+	width: 50%;
+	padding: 20px;
+	background: rgb(255,212,0);
+background: linear-gradient(90deg, rgba(255,212,0,1) 0%, rgba(253,178,29,1) 50%, rgba(233,252,30,1) 100%);
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 20px;
+}
+
+a.curious {
+	padding: 5px;
+	color: yellow;
+	background-color: rgba(253,29,29,1);
+}
+
+/* Curious George Page */
+
+body.curiousgeorgepage {
+	background-color: yellow;
+}
+
+.george {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	border-radius: 20px;
+	justify-content: center;
+	padding-bottom: 20px;
+	padding-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.inside {
+	display: flex;
+	flex-wrap: flex;
+}
+
+.fruittab {
+	font-family: 'timestamp';
+	font-size: 40px;
+	padding-top: 10px;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+
+}
+
+
+/* Fishy page */
+body.fishypage {
+	background-color: lightseagreen;
+	padding: 20px;
+}
+
+.fish {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.portrait {
+	width:30%;
+	margin-right: auto;
+	padding-top: 40px;
+}
+
+.bio {
+	width:50%;
+	background: rgb(28,95,168);
+background: linear-gradient(90deg, rgba(28,95,168,1) 0%, rgba(38,208,105,1) 35%, rgba(36,205,240,1) 100%);
+	padding: 20px;
+	color: white;
+}
+
+.script {
+	width:20%;
+	font-size: 30px;
+	padding: 50px;
+	font-family: 'wombscript';
+}
+
+
+/* Fish Dinner page */
+
+.fishdinnerpage {
+	background-color: rgb(248, 204, 81);
+}
+
+div.recipe {
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: wheat;
+	padding: 20px;
+	border-radius: 20px;
+}
+
+div.title {
+	font-size: 50px;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'timestamp';
+	margin-top: 40px;
+}
+
+div.stew {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a.finish {
+	padding: 2px;
+	color: rgb(66, 255, 66);
+	background-color: lightcoral;
+	animation: flash 2s infinite;
+}
+
+/* Finish Soup Page */
+
+body.finishsouppage {
+	background-color: lightcoral;
+}
+
+.soup {
+	display: flex;
+	flex-wrap: flex;
+	justify-content: center;
+}
+
+.finsih {
+	width: 60%;
+	background-color: rgb(255, 138, 28);
+	padding: 20px;
+	border-radius: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	display: block;
+}
+
+a.soup:hover {
+	color: orange;
+	background-color: mediumvioletred;
+	animation: flash 2s infinite;
+}
+/* Cigarette page */
+
+body.cigpage {
+	background-color: sienna;
+}
+
+.smokertitle {
+	background-color: rgb(252, 177, 80);
+	border-radius: 20px;
+	font-family: 'timestamp';
+	font-size: 50px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 15px;
+	padding-bottom: 5px;
+}
+
+
+.adele {
+	width: 30%;
+	border-radius: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 5px dotted pink;
+}
+
+.cameron {
+	width: 30%;
+	border-radius: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 5px dotted palevioletred;
+}
+
+.gwyneth {
+	width: 30%;
+	border-radius: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 5px dotted plum;
+}
+
+a.diaz {
+	padding: 2px;
+	color: purple;
+	background-color: pink;
+	animation: flash 2s infinite;
+
+}
+
+@keyframes flash{
+	0%{filter: hue-rotate(0);}
+	50%{filter: hue-rotate(90deg);}
+	100%{filter: hue-rotate(0);}
+}
+
+.jennifer {
+	width: 30%;
+	border-radius: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 5px dotted paleturquoise;
+}
+
+.paris {
+	width: 30%;
+	border-radius: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 5px dotted purple;
+}
+
+figcaption {
+	width: 30%;
+	border-radius: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+
+}
+
+
+/* Cameron Diaz Page */
+
+body.camerondiazpage {
+	background-color: pink;
+}
+
+.diaztitle {
+	background: rgb(255,0,147);
+background: linear-gradient(90deg, rgba(255,0,147,1) 0%, rgba(255,177,23,1) 50%, rgba(237,147,211,1) 100%);
+	font-family: 'slowscript';
+	font-size: 50px;
+	text-align: center;
+	border-radius: 20px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+
+.contain1 {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%;
+	background-color: ;
+}
+
+.cd1 {
+	float: left;
+	width: 25%;
+	padding: 5px;
+	/* flex: 25%; */
+}
+
+.cd2 {
+	width: 25%;
+	float: left;
+	padding: 5px;
+}
+
+.cd3 {
+	width: 25%;
+	float: left;
+	padding: 5px;
+}
+
+.cd4 {
+	width: 25%;
+	padding: 5px;
+	float: left;
+}
+
+.contain2 {
+	width: 100%;
+	display: flex
+}
+
+.cd5 {
+	width: 25%;
+	float: left;
+	padding: 5px;
+}
+
+.cd6 {
+	width: 25%;
+	float: left;
+	padding: 5px;
+}
+
+.cd7 {
+	width: 25%;
+	float: left;
+	padding: 5px;
+}
+
+.cd8 {
+	width: 25%;
+	float: left;
+	padding: 5px;
+}
+.page1{
+	position: relative;
+}
+.text {
+	background-color: orchid;
+	font-family: 'timestamp';
+	text-align: center;
+	font-size: 30px;
+	padding-top: 10px;
+	position: absolute;
+    top: -80vh;
+}
+
+
+
+/* Groove Page */
+
+body.groovepage {
+	background-color: pink;
+}
+
+a.groovetab {
+	color: purple;
+	background-color: rgb(255, 42, 209);
+	font-family: 'slowscript';
+}
+
+a.groovetab:hover {
+	color: rgb(255,212,0);
+	background-color: teal;
+	animation: flash 2s infinite;
+}
+
+
+.letsgroove {
+	font-family: 'slowscript';
+	font-size: 60px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	color: red;
+	background: rgb(247,230,240);
+background: linear-gradient(90deg, rgba(247,230,240,1) 0%, rgba(226,158,216,1) 50%, rgba(255,0,138,1) 100%);
+padding-top: 10px;
+padding-bottom: 20px;
+}
