@@ -26,17 +26,27 @@ img {
 	src: url(fonts/SlowScript-One.otf);
 }
 
+@font-face {
+	font-family: 'allison';
+	src: url(fonts/Allison-Regular.ttf);
+}
+
+@font-face {
+	font-family: 'shadows';
+	src: url(fonts/ShadowsIntoLight-Regular.ttf);
+}
+
 a {
-	color:red;
-	background-color: yellow;
+	color: rgb(191, 191, 255);
+	background-color: rgb(168, 89, 115);
 	padding: 20px;
 	border-radius: 20px;
 	text-decoration: none;
 }
 
 a:hover {
-	background-color: blue;
-	color: white;
+	background-color: rgb(255, 255, 187);
+	color: rgb(253, 133, 104);
 }
 
 .caption {
@@ -44,42 +54,11 @@ a:hover {
 	font-family: 'Courier New', Courier, monospace;
 }
 
-/* Stinky Page */
-
-body.stinkypage {
-	background-color: rgb(245, 139, 157);
-}
-
-.box {
-	width: 300px;
-	height: 300px;
-	background-color: rgb(131,58,180);
-	animation-name: boxmove;
-	animation: boxmove 4s alternate infinite linear;
-}
-
-@keyframes boxmove {
-	
-	0% {
-		border-radius: 100%;
-	}
-
-	50% {
-		border-radius: 0%;
-	}
-
-	100% {
-		border-radius: 100%;
-	}
-
-}
-
-
 
 /* Index page */
 
 body.indexpage {
-	background-color: darkorchid;
+	background-color: rgb(207, 132, 144);
 }
 
 a.padding {
@@ -90,7 +69,7 @@ a.padding {
 	width: 75%;
 	margin-left: auto;
 	margin-right: auto;
-	background: linear-gradient(90deg, rgba(39,170,51,0.8438914027149321) 22%, rgba(236,155,225,1) 50%, rgba(243,255,0,1) 100%);
+	background: rgb(255, 239, 215);
 	padding: 20px;
 	border-radius: 20px;
 }
@@ -107,7 +86,7 @@ a.padding {
 /* Question page */
 
 body.questionpage {
-	background-color: deeppink;
+	background-color: rgb(243, 60, 157);
 }
 
 .fishy {
@@ -179,13 +158,14 @@ body.questionpage {
 }
 
 .article a {
-	color: fuchsia;
+	color: rgb(250, 250, 118);
+}
 
 /* Fruity page */
 
+
 body.fruitypage {
-	background-color: fuchsia;
-}
+	background-color: fuchsia;}
 
 .container {
 	display: flex;
@@ -368,6 +348,11 @@ body.fishypage {
 	flex-wrap: wrap;
 }
 
+a.test {
+	color: blue;
+	background-color: rgb(163, 187, 231);
+}
+
 .portrait {
 	width:30%;
 	margin-right: auto;
@@ -378,15 +363,17 @@ body.fishypage {
 	width:50%;
 	background: rgb(28,95,168);
 background: linear-gradient(90deg, rgba(28,95,168,1) 0%, rgba(38,208,105,1) 35%, rgba(36,205,240,1) 100%);
-	padding: 20px;
+	padding: 90px;
 	color: white;
+	font-size: 25px;
+	text-align: center;
 }
 
 .script {
 	width:20%;
-	font-size: 30px;
+	font-size: 50px;
 	padding: 50px;
-	font-family: 'wombscript';
+	font-family: 'allison';
 }
 
 
@@ -409,7 +396,7 @@ div.title {
 	font-size: 50px;
 	text-transform: uppercase;
 	text-align: center;
-	font-family: 'timestamp';
+	font-family: 'shadows';
 	margin-top: 40px;
 }
 
@@ -560,7 +547,7 @@ background: linear-gradient(90deg, rgba(255,0,147,1) 0%, rgba(255,177,23,1) 50%,
 	flex-wrap: wrap;
 	flex-direction: row;
 	width: 100%;
-	background-color: ;
+	
 }
 
 .cd1 {
@@ -626,7 +613,7 @@ background: linear-gradient(90deg, rgba(255,0,147,1) 0%, rgba(255,177,23,1) 50%,
 	font-size: 30px;
 	padding-top: 10px;
 	position: absolute;
-    top: -80vh;
+    top: -90vh;
 }
 
 
@@ -635,7 +622,10 @@ background: linear-gradient(90deg, rgba(255,0,147,1) 0%, rgba(255,177,23,1) 50%,
 
 body.groovepage {
 	background: rgb(247,230,240);
-background: linear-gradient(90deg, rgba(247,230,240,1) 0%, rgba(226,158,216,1) 50%, rgba(255,0,138,1) 100%);
+	background: linear-gradient(90deg, rgba(247,230,240,1) 0%, rgba(226,158,216,1) 50%, rgba(255,0,138,1) 100%);
+	width: 100%;
+	overflow: hidden;
+
 }
 
 a.groovetab {
