@@ -150,7 +150,7 @@ body.questionpage {
 	width: 30.333%;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: yellow;
+	background-color: rgb(253, 174, 100);
 	padding: 20px;
 	border-radius: 20px;
 	transition: 2s;
@@ -161,6 +161,26 @@ body.questionpage {
 	background-color: rgb(223, 163, 153);
 	border-radius: 100%;
 }
+
+.cigs a{
+	color: lightskyblue;
+}
+
+.article {
+	width: 30.333%;
+	margin: auto;
+	display: flex;
+	padding: 20px;
+	border-radius: 20px;
+	text-align: center;
+	font-family: 'slowscript';
+	font-size: 15px;
+	position: relative; 
+}
+
+.article a {
+	color: fuchsia;
+
 /* Fruity page */
 
 body.fruitypage {
@@ -614,7 +634,8 @@ background: linear-gradient(90deg, rgba(255,0,147,1) 0%, rgba(255,177,23,1) 50%,
 /* Groove Page */
 
 body.groovepage {
-	background-color: pink;
+	background: rgb(247,230,240);
+background: linear-gradient(90deg, rgba(247,230,240,1) 0%, rgba(226,158,216,1) 50%, rgba(255,0,138,1) 100%);
 }
 
 a.groovetab {
@@ -637,8 +658,33 @@ a.groovetab:hover {
 	margin-left: auto;
 	margin-right: auto;
 	color: red;
-	background: rgb(247,230,240);
-background: linear-gradient(90deg, rgba(247,230,240,1) 0%, rgba(226,158,216,1) 50%, rgba(255,0,138,1) 100%);
-padding-top: 10px;
+padding-top: 30px;
 padding-bottom: 20px;
 }
+
+
+/* Groove Page */
+
+.gify {
+	width: 100%;
+	display: flex;
+	flex-wrap: flex;
+	background: rgb(131,58,180);
+	background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+	padding: 20px;
+	border-radius: 20px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.boogy {
+	padding-right: 5px;
+}
+
+a.groove {
+	color: pink;
+	background-color: palevioletred;
+	padding: 2px;
+	animation: flash 2s infinite;
+}
+
