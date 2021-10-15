@@ -1,0 +1,54 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+}
+
+a {
+	color:red;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.col {
+	height: 100vh;
+	width: 33.333%;
+	overflow: scroll;
+	padding: 20px;
+}
+
+.col.small {
+	width: 50%;
+	background-color: pink;
+}
+
+.col.large {
+	width: 50%;
+	background-color: powderblue;
+}
+.title {
+	font-size: 60px;
+	margin-bottom: 32px;
+}
+
+.text {
+
+}
+
+.text p {
+	margin-bottom: 32px;
+}
+
+.footnotes {
+	font-size: 18px;
+}
+
+.excerpt {
+	font-size: 18px;
+}
+
+
+

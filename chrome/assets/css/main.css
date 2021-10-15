@@ -1,0 +1,133 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+/* Basic Insticts page */
+
+.main {
+	margin: 20px;
+}
+
+.tag {
+	width: 25%;
+}
+
+.title {
+	font-size: 56px;
+	width: 75%;
+	font-family: sans-serif;
+}
+
+.header {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 28px;
+}
+
+.feature {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 28px;
+}
+
+.image {
+	width: 75%;
+	height: 650px;
+}
+
+.info {
+	width: 25%;
+	font-size: 18px;
+	font-family: serif;
+}
+
+.text {
+	margin-left: 25%;
+}
+
+.lines {
+	display: flex;
+	flex-wrap: wrap;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	pointer-events: none;
+  }
+  
+  .line {
+	width: 1px;
+	height: 100vh;
+	background-color: black;
+  }
+  
+  .line1 {
+	margin-left: 25%;
+  }
+  
+  .line2 {
+	margin-left: 25%;
+  }
+  
+  .line3 {
+	margin-left: 25%;
+  }
+
+.menu {
+	height: 100vh;
+	width: 33%;
+	background-color: red;
+	position: fixed;
+	right: 0px;
+	top: 0px;
+	padding: 20px;
+	box-shadow: -5px 0px 5px 0px gray;
+	margin-right: -40%;
+	transition: 1s;
+}
+
+.menu.open {
+	margin-right: 0%;
+	transition: 1s;
+}
+
+.nav {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 2;
+}
+
+.button {
+	cursor: pointer;
+}
+
+/* Ligne Roset Page */
+
+.main2 {
+	margin: 20px;
+}
+
+.feature2 {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 50px;
+}
+
+.image2 {
+	width: 50%;
+	height: 650px;
+}
+
+
+
+
+
+
+
