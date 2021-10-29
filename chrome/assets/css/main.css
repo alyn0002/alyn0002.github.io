@@ -110,8 +110,36 @@ a {
 
 /* Ligne Roset Page */
 
+.orange {
+	color: orange;
+}
+
+div.nav {
+	display: flex;
+	flex-wrap: wrap;
+	border-bottom: 1px solid black;
+	padding: 10px;
+	background-color: white;
+}
+
+div.lbutton {
+	width: 25%;
+	border-left: 1px solid black;
+	padding: fixed;
+	width: 100%;
+}
+
+div.lbutton:hover {
+	background-color: yellow;
+	cursor: pointer;
+}
+
 .main2 {
 	margin: 20px;
+}
+
+div.main2.sans {
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .feature2 {
