@@ -19,8 +19,8 @@ $('div.lbutton-font').click(function(){
 });
 
 
-$('div.lbutton-day').click(function(){
-  $('div.main2').addClass('day');
+$('div.lbutton-emoji').click(function(){
+  $('div.rose').addClass('emojiopen');
 });
 
 
